@@ -1,0 +1,103 @@
+.main{
+
+    height: 100vh;
+    background-color:rgb(31, 29, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.wrappers{
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+
+    width: 50%;
+    height: 60%;
+    background-color: white;
+    
+}
+.header{
+    background-color: crimson;
+
+
+}
+.chatbox{
+    background-color:#fff;
+    padding: 14px;
+    
+}
+
+/* #input{
+    width: 80%;
+    padding: 20px 5px;
+    outline: none;
+    font-size: 24px;
+    padding: 0 5px;
+} */
+/* .sending{
+    background-color: crimson;
+}
+.sending > span > img{
+    text-align: center;
+
+} */
+.btn-send{
+    background-color: crimson;
+    /* padding-bottom: 5px; */
+   
+    cursor: pointer;
+    transition: 0.3 all;
+
+}
+.btn-send > img{
+    /* margin-left: 35px; */
+    filter: brightness(100)invert();
+    transition: 0.3s all ;
+    
+    
+}
+.btn-send :hover{
+    
+    transform: translateX(10px);
+}
+/* .chatmessage{
+    display: in;
+    background-color: cyan;
+    color: white;
+    padding: 1.2vmax;
+    border-radius:5px;
+    margin: 1vmax;
+    width: 70%;
+    clear: both;
+}
+.right{
+    float: right;
+    background-color: cyan;
+}
+.left{
+    float: left;
+    background-color: crimson;
+} */
+
+
+.chatmessage{
+    background-color: gainsboro;
+    width: 50%;
+    padding: 1vmax;
+    margin: 1.2vmax;
+    border-radius: 8px;
+    clear: both;
+    color: white;
+}
+.left{
+    float: left;
+    background-color: #3f51b5;
+    /* background-color: rgba(80, 211, 80, 0.973); */
+
+}
+   
+.right{
+    float: right;
+    background-color: #f50057;
+}
+   
